@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color12"
+    tools:context=".EditCourseActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Name"
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idCourseName"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textColor="@color/colortext1"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Price"
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEdtCoursePrice"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textColor="@color/colortext1"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Suited For "
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEdtCourseSuitedFor"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textColor="@color/colortext1"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Image Link"
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEdtCourseImageLink"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textColor="@color/colortext1"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Link"
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEdtCourselink"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Enter Course Description"
+                android:padding="5dp"
+                android:textColorHint="@color/colortext1"
+                app:hintTextColor="@color/colortext1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/idEdtCourseDesc"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine|textImeMultiLine"
+                    android:singleLine="false"
+                    android:textColor="@color/colortext1"
+                    android:textColorHint="@color/colortext1"
+                    android:textSize="14sp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idBtnUpdateCourse"
+                    android:layout_weight="1"
+                   android:layout_margin="8dp"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/color21"
+                    android:text="Update Course"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idBtnDeleteCourse"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color21"
+                    android:textAllCaps="false"
+                    android:text="Delete Course"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idPBloading"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_back"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walkActivity"
+    android:background="@color/color12">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/color21"/>
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/img" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_1" />
+
+    <ImageView
+        android:layout_width="314dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/img_2" />
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="266dp"
+        android:src="@drawable/img_3" />
+
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="@color/colortext2"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:text="School"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Easily to find your"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="We provide a service for you to easily find and join our course."
+        android:textAlignment="center"
+        android:textColor="@color/colortext4"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/color21"
+        android:text="Next"
+        android:textAllCaps="false" />
+
+
+
+
+</RelativeLayout>
